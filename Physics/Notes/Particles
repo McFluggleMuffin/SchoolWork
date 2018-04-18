@@ -1,0 +1,13 @@
+\documentclass{article}
+\begin{document}
+
+\Section{Particle Zoo}
+
+\begin{centre}
+\begin{tabular}(|c|c|c|c|c|c|)
+\hline 
+	Particle and Symbol&Charge&Antiparticle&Antiparticle Charge&Rest Energy&Interactions
+\end{tabular}
+\end{centre}
+
+\end{document}

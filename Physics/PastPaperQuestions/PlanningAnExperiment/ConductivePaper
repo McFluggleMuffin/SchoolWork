@@ -1,0 +1,27 @@
+Conductive paper, sometimes called Teledeltos paper is produced by coating one surface of the paper with a thin layer of graphite paint. To investigate its electrical
+properties, pieces of the paper can be joined to a conventional wired circuit using copper electrodes and bulldog clips.
+
+It is known that the paper obeys Ohm's Law providing the current through it does not exceed 200 mA. The company that manufactures it estimates that under typical
+laboratory conditions, the resistivity of the paint is between 1.0 x 10^-5 Ohm metres and 5.0 x 10^-5 Ohm metres.
+
+Design an experiment that investigates some characteristic of the conductive paper.
+
+
+The aim of the experiment would be to measure and calculate resistivity.
+First, take an estimate for the thickness of the paint, which should be around 0.1mm. Multiply this by the width of the paper in order to generate a value for the cross
+sectional area. Then, using a ruler, measure the length of the paper, from one electrode, to the other. Put a voltmeter around the paper, in order to measure the
+potential difference between the electrodes. Add an ammeter to the circuit, on one side of the paper, in order to measure the current flowing through it. 
+
+Then, alter the input voltage at the power supply, making it about 1 volt. Take a measurement of the voltage and the current, and record them in a table. Slowly
+increase the voltage, in steps of 0.5 volts, taking a reading of both values at each step, until the voltage is 5 volts. After each reading however, you must break the
+circuit, in order to allow the paint to cool down, to give better results. Take repeat readings, in order to calculate an average and increase result accuracy.
+
+Once you have recorded your data, you can plot a graph of V against I, and the gradient will thus be V/I, or Resistance. Once you have plotted a line of best fit, and
+measured the gradient of a long section of the graph, you can use the value in the equation Resistivity = RA / L, along with the values of A and L measured earlier.
+
+4/8
+Notes for improvement:
+	Voltmeter across paper, not around
+	Ammeter in series in circuit
+	Specify Control Variable
+ 	MAKE SURE TO CHECK EACH POINT IN THE HINT AND TICK THE OFF AS COMPLETE

@@ -1,0 +1,57 @@
+Page 25
+1.A. How does the quark composition of a meson compare with the quark composition of a baryon.
+
+	A quark is made of a quark-antiquark pair, whereas a baryon has three quarks or three antiquarks
+
+  B. State the composition of:
+    I. Proton
+	
+	uud
+
+    II. Neutron
+
+	udd
+
+2. Determine the quark composition of each of the following hadrons, given its strangeness.
+  A. A pi0 meson (S = 0)
+
+	uU
+
+  B. An Antiproton (S = 0)
+
+	UUD
+
+  C. A K minus meson (S = -1)
+
+	sU
+
+  D. A Sigma0 baryon (S = -1)
+
+	sud
+
+3. In Beta plus decay, a positron and an electron neutrino are emitted when a proton in the nucleus changes into a neutron.
+  A. In terms of quarks, draw a Feynman diagram to represent this change.
+
+  B. Describe the changes that are represented in this diagram.
+
+	An up quark turns into a down quark and a virtual W boson is exchanged with the beta plus particle and electron neutrino, both of which are released.
+
+4.A. A Sigma minus particle has a strangeness of -1. Show that it is composed of a strange quark and two down quarks.
+
+	Strangeness: -1 + 0 + 0 = -1 
+	Charge: -1/3 + -1/3 + -1/3 = -1
+	Correct charge and strangness so Sigma minus is sdd
+
+  B. A K+ meson is composed of a strange antiquark and an up quark. A Sigma- baryon is composed of a strange quark and two down quarks. They can be created in the
+     reaction shown below.
+
+     Describe this reaction in terms of quark and antiquarks.
+
+	dU + uud = Su + sdd
+	One of the up quarks from the proton and the up antiquark annihilate each other, and then pair production occurs to create sS. The down quarks combine with the
+	new Strange quark to form the Sigma-, and the remain up quark and strange antiquark form a K+ meson.	
+
+
+
+
+

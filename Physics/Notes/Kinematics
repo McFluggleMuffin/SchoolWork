@@ -1,0 +1,23 @@
+\documentclass{article}
+\begin{document}
+\section{Section 3 - Mechanics and materials}
+
+
+\subsection{Chapter 6 - Forces in equilibrium}
+
+	A scalar quantity is one that has a magnitude, but does not have a direction.	
+	A vector quantity has both magnitude, and direction.
+
+\subsubsection{Addition of vectors}
+
+	\paragraph{}Vectors can be added together in order to form a \textbf{resultant} force. For all intents and purposes, the resultant force can be used as the only
+	force acting on the object. There are two main ways to resolve and calculate resultant force.
+	\paragraph{}The first is trigonometry, using cos and sin to resolve each diagonal force into its vertical and horizontal \textbf{components}. If two forces act
+	in the same or opposite directions, they can be added or subtracted respectively. Once all that is left is one horizontal force, and one verticle, pythagoras
+	and more tig can be used in order to work of the resultant of the two.
+	In order to do this, place the two vector arrows 'tip to tail' and then work of the hypotenous of the triangle created.
+	\paragraph{}The second is scale diagrams, which work by deciding on a scale, such as 1 Newton = 1 Centimetre. Each arrow can then be put tip to tail in a line,
+	and the	resultant force is the arrow that joins the last tip to the first tail. If the forces create a fully enclosed shape, then the system would be in
+	\textbf{equilibrium}. 
+
+\end{document}
