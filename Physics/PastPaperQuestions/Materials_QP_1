@@ -1,0 +1,31 @@
+1.A.
+	Tensile stress - Force per unit cross sectional area
+	Tensile stress - Ratio of extension to original length (Extension over length)
+
+  B.I.  
+	Between A and B, the wire is undergoing elastic deformation, and is following Hooke's law. Between B and C it is undergoing plastic deformation, and is becoming
+	permanently changed. From C to D, the weight is being removed, and the wire is again following Hooke's law and acting elastically. The distance from A to D
+	shows that permanent extension has occured, when the wire was acting plastically. 
+
+    II.
+	Ductile, as it extends with noticable yield, without snapping.
+
+    III.
+	The permanent extension due to plastic deformation.
+
+    IV.
+	Young's Modulus is the gradient of either straight section, either A to B, or D to C.
+
+    V. 
+	The area under the graph
+
+  C.
+	2.1 * 10^11 = (75 * 3) / (Ex * 2.8 * 10^-7)
+	2.1 * 10^11 = (225 * 10^7) / (Ex * 2.8)
+	5.88 * 10^11 = (225 * 10^7) / Ex
+	Ex          = (225 * 10^7) / (5.88 * 10^11)
+	Ex          = 225 / (5.88 * 10^4)
+	Ex          = 2.25 / (5.88 * 10^2)
+	Ex	    = 3.826 * 10^-3
+
+2. 
