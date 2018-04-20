@@ -1,0 +1,15 @@
+\documentclass{article}
+\begin{document}
+
+\section{} A monochromatic point light of wavelength Lamda is shining through two narrow slits separated by a distance d on a screen which is a distance D away (D>>d)
+from the slits. Sketch the pattern of light intenisty Observed on the screen. Explain why there are minima and maxima. If lambda corresponds to red light, what would
+the pattern look like for green light, add this to the sketch.
+
+\textbf{Diagram 1.1}
+\paragraph{} Maxima and minima occur because as the light passes through the slits, it diffracts outwards in a circular pattern. Maxima and minima occur because of a
+difference in path difference, the distance from the slit to the point of the screen. Maxima occur at a path difference of a whole number of wavelengths, as the waves
+are in phase. Minima occur where the path difference is equal to an odd number of half wavelengths.
+ 
+
+
+\end{document}
