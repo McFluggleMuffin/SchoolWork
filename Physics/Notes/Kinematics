@@ -1,9 +1,9 @@
 \documentclass{article}
 \begin{document}
-\section{Section 3 - Mechanics and materials}
+\section{Mechanics and materials}
 
 
-\subsection{Chapter 6 - Forces in equilibrium}
+\subsection{Forces in equilibrium}
 
 	A scalar quantity is one that has a magnitude, but does not have a direction.	
 	A vector quantity has both magnitude, and direction.
@@ -19,5 +19,20 @@
 	\paragraph{}The second is scale diagrams, which work by deciding on a scale, such as 1 Newton = 1 Centimetre. Each arrow can then be put tip to tail in a line,
 	and the	resultant force is the arrow that joins the last tip to the first tail. If the forces create a fully enclosed shape, then the system would be in
 	\textbf{equilibrium}. 
+
+\subsubsection{Equilibrium}
+
+	\paragraph{}For a system to be in equilibrium, two conditions must be met. The first is that there is not a resultant force in any direction. The second is that
+	there is no resultant moment. "Change to italics" See point 1.2.1 for how to calculate resultant moment.
+
+\subsection{Moments}
+\subsubsection{Calculating resultant moment}
+
+	\paragraph{}To calculate a moment, a pivot must be found. Each force acting on the object will attempt to rotate it around this point. To calculate the moment
+	of each force, the equation, Moment = Force x Perpendicular Distance to Pivot, must be used.
+	\paragraph{Leverage} is the idea that the further away you are from the pivot, the less the force required to turn the object it. The equation above shows this,
+	as the greater the distance, the greater the moment. 
+	\paragraph{}Moments that turn clockwise can all be added together, and the same goes for any anti-clockwise moments. One can then be subtracted from the other,
+	and a resultant moment is given. If this is 0, the object will not spin, if it is more, then the object will.
 
 \end{document}
