@@ -48,7 +48,7 @@
 \draw [<-] (8,9.5) -- (6.5,9.5) node[anchor=south] {3.0};
 \draw[->] (6.5,9.5) -- (5,9.5); %Distance from 4N force to pivot
 
-\draw[thick, ->] (5,9) node[anchor=south] {\textbf{P}}-- (5,10); %Pivot
+\draw[thick, ->] (5,9) node[anchor=north] {\textbf{P}}-- (5,10); %Pivot
 
 \end{tikzpicture}
 
