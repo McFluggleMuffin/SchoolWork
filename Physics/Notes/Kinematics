@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{tikz}
 \begin{document}
 \section{Mechanics and materials}
 
@@ -30,9 +31,25 @@
 
 	\paragraph{}To calculate a moment, a pivot must be found. Each force acting on the object will attempt to rotate it around this point. To calculate the moment
 	of each force, the equation, Moment = Force x Perpendicular Distance to Pivot, must be used.
-	\paragraph{Leverage} is the idea that the further away you are from the pivot, the less the force required to turn the object it. The equation above shows this,
+	\paragraph{}Leverage is the idea that the further away you are from the pivot, the less the force required to turn the object it. The equation above shows this,
 	as the greater the distance, the greater the moment. 
 	\paragraph{}Moments that turn clockwise can all be added together, and the same goes for any anti-clockwise moments. One can then be subtracted from the other,
 	and a resultant moment is given. If this is 0, the object will not spin, if it is more, then the object will.
+
+\begin{tikzpicture}
+
+\draw[thick] (0,10) node[anchor=east] {\textbf{A}} -- (10,10) node[anchor=west] {\textbf{B}}; %Main Beam
+
+\draw[thick, ->] (1,12) -- (1,10) node[anchor=south west] {3N};
+\draw[thick, ->] (8,12) -- (8,10) node[anchor=south east] {4N}; %Forces
+
+\draw[dashed, very thin] (8,10) -- (8,9); %Line of action of forces
+
+\draw [<-] (8,9.5) -- (6.5,9.5) node[anchor=south] {3.0};
+\draw[->] (6.5,9.5) -- (5,9.5); %Distance from 4N force to pivot
+
+\draw[thick, ->] (5,9) node[anchor=south] {\textbf{P}}-- (5,10); %Pivot
+
+\end{tikzpicture}
 
 \end{document}
