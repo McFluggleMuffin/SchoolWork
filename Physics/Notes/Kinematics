@@ -88,5 +88,9 @@
 
 \end{tikzpicture}
 
-	\paragraph{A)} If the above system is in equilibrium, then the total clockwise moment is equal to the total anti-clockwise moment. The total clockwise moment is equal to $5 * 3$, as this is Force times Perpendicular Distance. This makes the moment $15 Nm^{-1}$
-	\paragraph{} The anti-clockwise moment is therefore also $15 Nm^{-1}$, and so we know that $15 = 4 * X$, we simply divide by 4 to get $X = \frac{15}{4}$, or $3.75m$\end{document}
+	\paragraph{A)} If the above system is in equilibrium, then the total clockwise moment is equal to the total anti-clockwise moment. The total clockwise moment
+	equal to $5 * 3$, as this is Force times Perpendicular Distance. This makes the moment $15 Nm^{-1}$
+	\paragraph{} The anti-clockwise moment is therefore also $15 Nm^{-1}$, and so we know that $15 = 4 * X$, we simply divide by 4 to get $X = \frac{15}{4}$, or
+	$3.75m$
+
+\end{document}
