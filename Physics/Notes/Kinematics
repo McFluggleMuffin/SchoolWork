@@ -43,8 +43,8 @@
 
 \end{tikzpicture}
 
-	\paragraph{}The value of X can be found with pythagoras' theorem, $a^2 + b^2 = c^2$, and therefore $X = \sqrt{3^2 + 4^2} = 5$
-	\paragraph{}The value of \theta can be found using trigonometry, and the fact that \tan{\theta} = \frac{4}{3}
+	\paragraph{}The value of X can be found with pythagoras' theorem, $a^{2} + b^{2} = c^{2}$, and therefore $X = \sqrt{3^{2} + 4^{2}} = 5$
+	\paragraph{}The value of $\theta$ can be found using trigonometry, and the fact that $\tan{\theta} = \frac{4}{3}$
 
 	\paragraph{}The second is scale diagrams, which work by deciding on a scale, such as 1 Newton = 1 Centimetre. Each arrow can then be put tip to tail in a line,
 	and the	resultant force is the arrow that joins the last tip to the first tail. If the forces create a fully enclosed shape, then the system would be in
