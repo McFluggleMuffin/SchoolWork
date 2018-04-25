@@ -43,12 +43,15 @@
 \draw[thick, ->] (1,12) -- (1,10) node[anchor=south west] {3N};
 \draw[thick, ->] (8,12) -- (8,10) node[anchor=south east] {4N}; %Forces
 
-\draw[dashed, very thin] (8,10) -- (8,9); %Line of action of forces
+\draw[dashed, very thin] (8,10) -- (8,9.5); %Line of action of forces
+\draw[dashed, very thin] (1,10) -- (1,9.5); 
 
 \draw [<-] (8,9.5) -- (6.5,9.5) node[anchor=south] {3.0};
-\draw[->] (6.5,9.5) -- (5,9.5); %Distance from 4N force to pivot
+\draw[->] (6.5,9.5) -- (5,9.5); %Distance from 4N force to pivot P
+\draw[<-] (5,9.5) -- (3,9.5) node[anchor=south] {4.0}; 
+\draw[->] (3,9.5) -- (1,9.5); %Distance from 3N force to pivot P
 
-\draw[thick, ->] (5,9) node[anchor=north] {\textbf{P}}-- (5,10); %Pivot
+\draw[thick, ->] (5,8.5) node[anchor=north] {\textbf{P}}-- (5,10); %Pivot
 
 \end{tikzpicture}
 
