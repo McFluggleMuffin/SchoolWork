@@ -17,6 +17,35 @@
 	in the same or opposite directions, they can be added or subtracted respectively. Once all that is left is one horizontal force, and one verticle, pythagoras
 	and more tig can be used in order to work of the resultant of the two.
 	In order to do this, place the two vector arrows 'tip to tail' and then work of the hypotenous of the triangle created.
+
+\subsubsection{Example Question}
+	\paragraph{} Calculate the magnitude of the resultant force on the object, and the angle from which it acts.	
+	\bigskip \bigskip
+
+\begin{tikzpicture}
+
+\draw (4,4) rectangle (6,6);
+\draw[->] (3.5,5) -- (4,5) node[anchor=south east] {1N};
+\draw[<-] (7.5,5) -- (6,5) node[anchor=south west] {4N};
+
+\draw[->] (3.5,5) -- (5,5) node[anchor=south west] {4N};
+
+\end{tikzpicture}
+
+	\paragraph{A)}The two horizontal forces can be combined, leaving a resultant force of $3N$ to the left. This, along with the $4N$ vertical force, can be redrawn
+	as such.
+
+\begin{tikzpicture}
+
+\draw[->] (0,0) -- (1.5,0) node[anchor=south] {3N} -- (3,0);
+\draw[->] (3,0) -- (3,2) node[anchor=west] {4N} -- (3,4);
+\draw[->] (0,0) -- (1.5,2) node[anchor=north east] {X} -- (3,4);
+
+\end{tikzpicture}
+
+	\paragraph{}The value of X can be found with pythagoras' theorem, $a^2 + b^2 = c^2$, and therefore $X = \sqrt{3^2 + 4^2} = 5$
+	\paragraph{}The value of \theta can be found using trigonometry, and the fact that \tan{\theta} = \frac{4}{3}
+
 	\paragraph{}The second is scale diagrams, which work by deciding on a scale, such as 1 Newton = 1 Centimetre. Each arrow can then be put tip to tail in a line,
 	and the	resultant force is the arrow that joins the last tip to the first tail. If the forces create a fully enclosed shape, then the system would be in
 	\textbf{equilibrium}. 
