@@ -1,0 +1,26 @@
+\documentclass[tikz, margin=3mm]{standalone}
+\usepackage{tikz}
+
+\begin{document}
+
+\section{Hardware and Software}
+\subsection{Boolean algebra}
+\subsubsection{De Morgan's Law}
+
+	\paragraph{}De Morgan's Law allows you to simplify boolean algebra, for example.
+	\paragraph{} $\overline{A+B} = \overline{A}.\overline{B}
+	\paragraph{}The process is as follows, swap the symbol in the middle, add a line across each part, and one across the whole thing.
+
+\subsubsection{Example Question}
+	\paragraph{Q)} Simplify the following  $\overline{(\overline{A}+B).(\overline{A+B})}$
+	\paragraph{A)}	
+
+\begin{align*}
+			 = \overline{(\overline{A}+B)} + (A+B) 
+			 = (A.\overline{B}) + (A+B) 
+			 = A.\overline{B} + A + B 
+			 = A.(\overline{B}+1) + B 
+			 = A + B 
+\end{align*}
+
+\end{document}
