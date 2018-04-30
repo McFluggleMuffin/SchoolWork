@@ -24,6 +24,8 @@
 
 \begin{tikzpicture}
 
+
+
 \draw (4,4) rectangle (6,6);
 \draw[->] (3.5,5) -- (4,5) node[anchor=south east] {1N};
 \draw[<-] (7.5,5) -- (6,5) node[anchor=south west] {4N};
