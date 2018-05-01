@@ -1,13 +1,23 @@
 \documentclass{article}
+\usepackage{amsmath, tikz}
 \begin{document}
 
-\Section{Particle Zoo}
+\section{Particle Physics}
 
-\begin{centre}
-\begin{tabular}(|c|c|c|c|c|c|)
-\hline 
-	Particle and Symbol&Charge&Antiparticle&Antiparticle Charge&Rest Energy&Interactions
-\end{tabular}
-\end{centre}
+\subsection{Electricity in particle physics}
+
+\subsubsection{Key Words}
+
+	\paragraph{Electron Volt} is the energy of a single electron if it passes through a potential difference of one volt.
+	\paragraph{An Ion} is an atom with a different amount of electrons to the standard atom.
+	\paragraph{Excitation} is the process by which an electron absorbs a particular quantity of energy to transition to a higher energy state (electron orbital).
+
+\subsubsection{}	
+
+	\paragraph{} The further an atomic electron is away from the nucleas, the more energy it has. If an external electron is involved in a collision with an atomic
+	electron, the atomic electron can absorb energy and move away from the nucleas. The exact amount absorbed is removed from the kinetic energy of the external
+	electron. The quantities of energy needed to move between energy levels are all exact. 
+	\paragraph{} A photon can also cause this excitation, however this is only true if the photon has \textbf{exactly} the right amount of energy. 
+	\paragraph{} An atmoic electron can completely leave the atom if it gains enough energy. 
 
 \end{document}
