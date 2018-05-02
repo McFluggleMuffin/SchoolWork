@@ -7,13 +7,11 @@
 \subsection{Excitation and Ionisation}
 
 \subsubsection{Key Words}
-
 	\paragraph{Electron Volt} is the energy of a single electron if it passes through a potential difference of one volt.
 	\paragraph{An Ion} is an atom with a different amount of electrons to the standard atom.
 	\paragraph{Excitation} is the process by which an electron absorbs a particular quantity of energy to transition to a higher energy state (electron orbital).
 
 \subsubsection{Excitation}	
-
 	\paragraph{} The further an atomic electron is away from the nucleas, the more energy it has. If an external electron is involved in a collision with an atomic
 	electron, the atomic electron can absorb energy and move away from the nucleas. The exact amount absorbed is removed from the kinetic energy of the external
 	electron. The quantities of energy needed to move between energy levels are all exact. 
@@ -21,7 +19,6 @@
 	\paragraph{} An atmoic electron can completely leave the atom if it gains enough energy. 
 
 \subsubsection{Page 35 Questions}
-
 	\paragaph{1} ionisation is the gain or loss of electrons, in excitation, an electron simply moves between energy levels. In both however, a change in the total
 	energy of the atom occurs.
 	\paragraph{2a} $10.4 * (1.6 * 10^{-19}) = 1.664 * 10^{-18}J$
@@ -37,14 +34,12 @@
 
 \subsection{Photon emmision}
 \subsubsection{Luminous gases}
-
 	\paragraph{} Gases at low pressure emit light when electrons are passed through the gas (so that it is conducting electricity). The atomic electrons absorb
-	energy when a collision occurs and are excited. When they move down energy levels, a photon is emmited.
+	energy when a collision occurs and are excited. When they move down energy levels, which can occur at anytime, a photon is emmited.
 	\paragraph{} Fluorescent bulbs contain mercury and argon gases, which when excited create invisible ultra violet light. This is then abosorbed by the internal
 	coating, the atoms of which are excited and then begin to emmit visible light.
 
 \subsubsection{Photon emmision calculation}
-
 	\paragraph{} When an electron moves down an energy level, a photon is emmitted. The exact energy of photon produced when an electron moves from level 4 to 3 is
 	as follows, $E_p = E_4 - E_3$ and therefore the frequency of the photon can be calculted by the equation $E_p = hf$ where $h = 6.63 * 10^{-34}$.
 
@@ -89,12 +84,10 @@
 \section{Mechanics and materials}
 
 \subsection{Forces in equilibrium}
-
 	A scalar quantity is one that has a magnitude, but does not have a direction.	
 	A vector quantity has both magnitude, and direction.
 
 \subsubsection{Addition of vectors}
-
 	\paragraph{}Vectors can be added together in order to form a \textbf{resultant} force. For all intents and purposes, the resultant force can be used as the only
 	force acting on the object. There are two main ways to resolve and calculate resultant force.
 	\paragraph{}The first is trigonometry, using cos and sin to resolve each diagonal force into its vertical and horizontal \textbf{components}. If two forces act
@@ -115,7 +108,6 @@
 \draw[->] (5,3.5) -- (5,4) node[anchor=south west] {4N};
 
 \end{tikzpicture}
-
 	\paragraph{A)}The two horizontal forces can be combined, leaving a resultant force of $3N$ to the left. This, along with the $4N$ vertical force, can be redrawn
 	as such.
 
@@ -126,22 +118,18 @@
 \draw[->] (0,0) -- (1.5,2) node[anchor=north east] {X} -- (3,4);
 
 \end{tikzpicture}
-
 	\paragraph{}The value of X can be found with pythagoras' theorem, $a^{2} + b^{2} = c^{2}$, and therefore $X = \sqrt{3^{2} + 4^{2}} = 5$
 	\paragraph{}The value of $\theta$ can be found using trigonometry, and the fact that $\tan{\theta} = \frac{4}{3}$
-
 	\paragraph{}The second is scale diagrams, which work by deciding on a scale, such as 1 Newton = 1 Centimetre. Each arrow can then be put tip to tail in a line,
 	and the	resultant force is the arrow that joins the last tip to the first tail. If the forces create a fully enclosed shape, then the system would be in
 	\textbf{equilibrium}. 
 
 \subsubsection{Equilibrium}
-
 	\paragraph{}For a system to be in equilibrium, two conditions must be met. The first is that there is not a resultant force in any direction. The second is that
 	there is no resultant moment. "Change to italics" See point 1.2.1 for how to calculate resultant moment.
 
 \subsection{Moments}
 \subsubsection{Calculating resultant moment}
-
 	\paragraph{}To calculate a moment, a pivot must be found. Each force acting on the object will attempt to rotate it around this point. To calculate the moment
 	of each force, the equation, Moment = Force x Perpendicular Distance to Pivot, must be used.
 	\paragraph{}Leverage is the idea that the further away you are from the pivot, the less the force required to turn the object it. The equation above shows this,
@@ -171,7 +159,6 @@
 \draw[thick, ->] (5,8.5) node[anchor=north] {\textbf{P}}-- (5,10); %Pivot
 
 \end{tikzpicture}
-
 	\paragraph{A)} If the above system is in equilibrium, then the total clockwise moment is equal to the total anti-clockwise moment. The total clockwise moment
 	equal to $5 * 3$, as this is Force times Perpendicular Distance. This makes the moment $15 Nm^{-1}$
 	\paragraph{} The anti-clockwise moment is therefore also $15 Nm^{-1}$, and so we know that $15 = 4 * X$, we simply divide by 4 to get $X = \frac{15}{4}$, or
