@@ -81,6 +81,11 @@
 	excitations occur, and electrons will not be able to move down energy levels. This process is not instantaneous however, as some electrons will move down after
 	the power is turned off, however none will be able to move up.
 
+\subsubsection{Stopping potential}
+	\paragraph{} Electrons that escape from the metal can be attracted back to it given that the plate has sufficient positive charge. The minimum potential needed
+	is called the stopping potential $V_s$. At this potential, the maximum kinetic energy of the emmitted electron is 0, as it must do extra work equal to 
+	$e * V_s$. \textit{$e = $the charge on one electron, or $1.6 * 10^{-19}$}
+
 \section{Mechanics and materials}
 
 \subsection{Forces in equilibrium}
