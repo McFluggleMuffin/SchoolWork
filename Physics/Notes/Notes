@@ -81,6 +81,12 @@
 	is called the stopping potential $V_s$. At this potential, the maximum kinetic energy of the emmitted electron is 0, as it must do extra work equal to 
 	$e * V_s$. \textit{$e = $the charge on one electron, or $1.6 * 10^{-19}$}
 
+\subsubsection{Spectra question}
+	\paragraph{} When a charged particle with enough kinetic energy collides with a gas atom, an exact amount of this energy can be absorbed, and this will cause an
+	an atomic electron to excite and move up energy levels. When this electron de-excites, and moves down energy levels, a photon is emitted. This photon has energy
+	exactly equal amount the electron loses, and is always the same for the same de-excitation. Because the energy of a photon is equal to its frequency times
+	Planck's constant, all the photons emitted have a discrete frequency. These frequencies can be absorbed and represented as sepectral lines, on a graph.
+
 \section{Mechanics and materials}
 
 \subsection{Forces in equilibrium}
