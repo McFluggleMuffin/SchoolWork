@@ -193,4 +193,14 @@
 	\paragraph{} The anti-clockwise moment is therefore also $15 Nm^{-1}$, and so we know that $15 = 4 * X$, we simply divide by 4 to get $X = \frac{15}{4}$, or
 	$3.75m$
 
+\section{Electricity}
+\subsection{Equations}
+\begin{align}
+	Q &= IT \\
+	Charge &= Current * Time \\ \\
+	V &= IR \\
+	Voltage &= Current * Resistance \\ \\
+	W &= \frac{F}{D} \\
+	Work done &= \frac{Force}{Distance} \\ \\
+
 \end{document}
