@@ -25,7 +25,23 @@ Electron&$9.11 * 10^{-31}$&$0$&$-1$ \\
 \end{center}
 \paragraph{}Specific charge is the charge of a particle or atom divided by its mass. In order to calculate it, you can use the equation 
 $S_c = \frac{e(N_p - N_e)}{N_eM_e + N_pM_p + N_nM_n}$ where $e = 1.6 * 10^{-19}$
+\paragraph{} Atoms can be displayed in the form X_Z^A, where A is the atomic mass, or combined relative masses of the particles in the atom, and Z is the atomic number amount of protons in the atom. An isotope is any atom with the same atomic number, but different atomic mass, i.e. has more or less neutrons in the nucleus.
 \subsubsection{Stable and unstable nuclei}
+\paragraph{}The strong nuclear force keeps the nucleus of the atom together, but also stops it from collapsing in on itself. At a range of 0.5fm or less, the strong nuclear force repels, and stops particles colliding, after that, and until about 3fm of separation, the force attracts the particles.
+\begin{center}
+        \begin{tikzpicture}
+        \draw[->] (.5,0)node[left]{-}--(.5,5)node[left]{+};
+        \draw (.5,1.25)node[left]{Repel}--(.5,3.75)node[left]{Attract};
+        \foreach \x in {1,...,7}
+        \draw (\x+0.5, 2.6)--(\x+.5,2.4)node [below]{\x};
+        \draw[->] (.5,2.5)node[left]{0}--(8.5,2.5)node[above=5pt]{distance from centre};
+        \draw[line width=1pt] (0.6,0) to [out=90, in=180](2.5,4) to [out=0, in=180](4.5,2.5) to [out=0, in=180](8,2.5);
+        
+        \end{tikzpicture}
+\end{center}
+\paragraph{}Unstable nuclei undergo alpha or beta radiation in order to become more stable. A nucleus that is too large will undergo alpha radiation, in order to eject 4 nuclides, and an atom that needs more protons will undergo beta radiation.
+\paragraph{Alpha decay equation} $_{Z}^{A}X -> _{Z-2}^{A-4}X + _{2}^{4}He
+\paragraph{Beta$^-$ decay equation} $_{Z}^{A}X -> _{Z+1}^{A}X + \beta ^{-}$ 
 \subsubsection{Particle, antiparticles and photons}
 \subsubsection{Particle interactions}
 \subsubsection{Classification of particles}
