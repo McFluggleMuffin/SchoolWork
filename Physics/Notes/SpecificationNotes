@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{amsmath, tikz}
+\begin{document}
+
+\tableofcontents	
+
+\section{Measurements and their errors}
+
+\section{Particles and radiation}
+\subsection{Particles}
+\subsubsection{Constituents of the atom}
+\subsubsection{Stable and unstable nuclei}
+\subsubsection{Particle, antiparticles and photons}
+\subsubsection{Particle interactions}
+\subsubsection{Classification of particles}
+\subsubsection{Quarks and antiquarks}
+\subsubsection{Applications of conservation laws}
+\subsection{Electromagnetic radiation and quantum phenomena}
+\subsubsection{The photoelectric effect}
+\subsubsection{Collisions of electrons with atoms}
+\subsubsection{Energy levels and photon emission}
+\subsubsection{Wave-Particle duality}
+
+\section{Waves}
+\subsection{Progressive and stationary waves}
+\subsubsection{Progressive waves}
+\subsubsection{Longitudinale and transverse waves}
+\subsubsection{Principle of superposition of waves and formation of stationary waves}
+\subsection{Refraction, diffraction and interference}
+\subsubsection{Interference}
+\subsubsection{Diffraction}
+\subsubsection{Refraction at a plane surface}
+
+\section{Mechanics and materials}
+\subsection{Force, energy and momentum}
+\subsubsection{Scalars and vectors}
+\subsubsection{Moments}
+\subsubsection{Motion along a straight line}
+\subsubsection{Projectile motion}
+\subsubsection{Newton's laws of motion}
+\subsubsection{Momentum}
+\subsubsection{Work, energy and power}
+\subsubsection{Conservation of energy}
+\subsection{Materials}
+\subsubsection{Bulk properties of solids}
+\subsubsection{The Young modulus}
+
+\section{Electricity}
+\subsection{Current electricity}
+\subsubsection{Basics of electricity}
+\subsubsection{Current-voltage characteristics}
+\subsubsection{Resistivity}
+\subsubsection{Circuits}
+\subsubsection[Potential dividers}
+\subsubsection{Electromotive force and internal resistance}
+
+\end{document}
