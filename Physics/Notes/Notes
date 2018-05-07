@@ -4,6 +4,23 @@
 
 \section{Particle Physics}
 
+\subsection{Radiation}
+\subsubsection{Alpha Radiation}
+	\paragraph{}Alpha radiation occurs in heavy atoms, and is the ejection of a Helium nucleus, or two protons and two neutrons. The atomic number of the resulting
+	daughter nucleus will be two lower, and the nucleon number will be four lower.
+	
+\subsubsection{Beta plus and minus Radiation}
+	\paragraph{}In beta minus decay, a neutron in the atom becomes and proton, and emits an electron and an antineutrino. This change is facilitated by the $W^{-}$
+	boson. The symbol for the emitted electron is $\beta^{-}$, and the antineutrino is $\overline{\upsilon}$
+	\paragraph{}Beta plus decay is the opposite of beta minus, and happens in a proton rich nucleus. A proton becomes a neutron, and a positron is emitted with a
+	neutrino. The process is facilitated by the $W^{+}$ boson.
+	\paragraph{}The neutrino was theorised in order to conserve the energy in beta decay, as without the neutrino the values do not add up.
+
+\subsection{Antiparticles}
+	\paragraph{}Every particle has a corresponding anti-particle. For exmaple, the positron is the anti-particle of the electron. Each anti-particle has the same
+	rest mass as its respective particle, but opposite charge and opposite strangeness. Every quark also has an antiquark, with the same relationship as a particle
+	to its antiparticle. 
+	
 \subsection{Excitation and Ionisation}
 
 \subsubsection{Key Words}
