@@ -25,7 +25,7 @@ Electron&$9.11 * 10^{-31}$&$0$&$-1$ \\
 \end{center}
 \paragraph{}Specific charge is the charge of a particle or atom divided by its mass. In order to calculate it, you can use the equation 
 $S_c = \frac{e(N_p - N_e)}{N_eM_e + N_pM_p + N_nM_n}$ where $e = 1.6 * 10^{-19}$
-\paragraph{} Atoms can be displayed in the form X_Z^A, where A is the atomic mass, or combined relative masses of the particles in the atom, and Z is the atomic number amount of protons in the atom. An isotope is any atom with the same atomic number, but different atomic mass, i.e. has more or less neutrons in the nucleus.
+\paragraph{} Atoms can be displayed in the form $X_Z^A$, where A is the atomic mass, or combined relative masses of the particles in the atom, and Z is the atomic number amount of protons in the atom. An isotope is any atom with the same atomic number, but different atomic mass, i.e. has more or less neutrons in the nucleus.
 \subsubsection{Stable and unstable nuclei}
 \paragraph{}The strong nuclear force keeps the nucleus of the atom together, but also stops it from collapsing in on itself. At a range of 0.5fm or less, the strong nuclear force repels, and stops particles colliding, after that, and until about 3fm of separation, the force attracts the particles.
 \begin{center}
@@ -40,9 +40,9 @@ $S_c = \frac{e(N_p - N_e)}{N_eM_e + N_pM_p + N_nM_n}$ where $e = 1.6 * 10^{-19}$
         \end{tikzpicture}
 \end{center}
 \paragraph{}Unstable nuclei undergo alpha or beta radiation in order to become more stable. A nucleus that is too large will undergo alpha radiation, in order to eject 4 nuclides, and an atom that needs more protons will undergo beta radiation.
-\paragraph{Alpha decay equation} $_{Z}^{A}X -> _{Z-2}^{A-4}X + _{2}^{4}He
-\paragraph{Beta$^-$ decay equation} $_{Z}^{A}X -> _{Z+1}^{A}X + \beta ^{-}$ 
-\paragraph{}The neutrino is a fundamental particle theorised to exist to explain the loss of energy in $\beta 6{-}$ decay. It is a small particle, with no charge and extremly small mass, even when compared to the other fundmental particles.
+\paragraph{Alpha decay equation} $_{Z}^{A}X -> _{Z-2}^{A-4}X + _{2}^{4}He$
+\paragraph{Beta$^-$ decay equation} $_{Z}^{A}X -> _{Z+1}^{A}X + \beta ^{-} + \overline{\upsilon}$
+\paragraph{}The neutrino is a fundamental particle theorised to exist to explain the loss of energy in $\beta ^{-}$ decay. It is a small particle, with no charge and extremly small mass, even when compared to the other fundmental particles.
 \subsubsection{Particle, antiparticles and photons}
 \paragraph{}Every particle has a corresponding anti-particle. The anti-particle has the same rest mass as it's respective particle, but opposite charge and strangeness.The table below shows a selection of particle anti-particle pairs.
 \begin{center}
@@ -54,10 +54,38 @@ Electron&$-1$&Positron&$+1$&$0.511$ \\
 \hline
 Proton&$+1$&Anti-proton&$-1$&$938.2$ \\
 \hline
-Neutron&$0$&Anti-neutron&$0&$939.6$ 
+Neutron&$0$&Anti-neutron&$0$&$939.6$ \\
+\hline
 \end{tabular}
 \end{center}
+\paragraph{}Photons are packets of energy that are expressed as waves. The frequency of a photon can be calculated with the equation $E = hf$ where h is Planck's constant, or $6.63 * 10^{-34}$. Photons are very important, as they are responsible for many phenomena, such as pair production.
+\paragraph{}Pair production occurs when a high energy photon becomes a particle and its respective anti-particle. For this to happen, the photon must have enough energyto account for the rest mass of each particle, any extra is split between the two as kinetic energy. The minimum energy for the photon, $E_{min}$ is therefore equal to twice the rest mass of the particle: $E_{min} = 2E_{0}$
+\paragraph{}Annihilation occurs when an anti-particle collides with its respective particle. Both are destroyed, and two photons of equal energy are produced. Each photon has minimum energy equal to the rest mass of one of the particles: $E_{min} = E_{0}$. Any extra kinetic energy that the particle or anti-particle had is split evenly between the two photons. Two photons are produced in order to conserve the momentum of the system.
 \subsubsection{Particle interactions}
+\paragraph{}Four fundamental forces act on particles. Gravity, Electromagnetic force, Strong Nuclear force and Weak Nuclear force. Each of these forces has an exchange particle which facilitates them.
+\paragraph{}For the electromagnetic force, virtual photons are the exchange particles.
+\paragraph{}The weak interaction is limited to \beta ^{-}, \beta ^{+}, electon capture and electron-proton collisions. The exchange particle is the W^{-} or W^{+} boson.
+\paragraph{}Feynman diagrams can be used to show these interactions, along with the exchange particles. One such diagram is seen below;
+\begin{center}
+        \begin{tikzpicture}
+            \begin{feynman}
+                \vertex(bottomleft)at(0,0);
+                \vertex(rightright)at(5.5,3.5);
+                \vertex(topleft)at(0,5);
+                \vertex(topright)at(4,5);
+                \vertex(midleft)at(1.5,2.5);
+                \vertex(midright)at(3,2.75);
+                
+            \diagram*{
+                  (bottomleft)--[fermion, edge label'=\(\mu^+\)](midleft)--[fermion,edge label'=\(\bar{\nu}_\mu\)](topleft);
+                  (midright)--[fermion,edge label'=\(e^+\)](rightright);
+                  (midright)--[fermion,edge label'=\(\nu_e\)](topright);
+                  (midleft)--[photon, red, edge label'=\(W^+\)](midright);     
+            };
+                
+            \end{feynman}
+        \end{tikzpicture}
+\end{center}
 \subsubsection{Classification of particles}
 \subsubsection{Quarks and antiquarks}
 \subsubsection{Applications of conservation laws}
