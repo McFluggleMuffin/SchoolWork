@@ -48,19 +48,11 @@
 
 	\paragraph{1a} $9eV$
 	\paragraph{1b}	
-\begin{align*}
-	E_p &= E_3 - E_2
-	E_p &= E_3 - E_1
-	E_p &= E_3 - E_0
-	E_p &= (E_3 - E_2) + (E_2 - E_1) + (E_1 - E_0)
-	E_p &= (E_3 - E_1) + (E_1 - E_0) 
-	E_p &= (E_3 - E_2) + (E_2 - E_0) %Change to diagram to show arrows of changes
-\end{align*}
 \begin{tikzpicture}
-	\draw (0,0) node[anchor=east] {$E_3$} -- (5.5,0);
-	\draw (0,3) node[anchor=east] {$E_2$} -- (5.5,3);
-	\draw (0,6) node[anchor=east] {$E_1$} -- (5.5,6);
-	\draw (0,9) node[anchor=east] {$E_0$} -- (5.5,9);
+	\draw (0,0) node[anchor=east] {$E_0$} -- (5.5,0);
+	\draw (0,3) node[anchor=east] {$E_1$} -- (5.5,3);
+	\draw (0,6) node[anchor=east] {$E_2$} -- (5.5,6);
+	\draw (0,9) node[anchor=east] {$E_3$} -- (5.5,9);
 
 	\draw[<-] (1,0) -- (1,9);
 	\draw[<-] (1.5,0) -- (1.5,9);
@@ -77,14 +69,14 @@
 \end{tikzpicture}
 	\paragraph{2b ii} 
 \begin{align*}
-	E_p &= (4.6 - 1.8) * 1.6 * 10^{-19}
-            &= 4.48 * 10^{-19}J
-	&
-	E_p &= (1.8 - 0) * 1.6 * 10^{-19}
-	    &= 2.88 * 10^{-19}J
-	&
-	E_p &= (4.6 - 0) * 1.6 * 10^{-19}
-	    &= (7.36 * 10^{-19}J
+	E_p &= (4.6 - 1.8) * 1.6 * 10^{-19} \\
+            &= 4.48 * 10^{-19}J \\
+	& \\
+	E_p &= (1.8 - 0) * 1.6 * 10^{-19} \\
+	    &= 2.88 * 10^{-19}J \\
+	& \\
+	E_p &= (4.6 - 0) * 1.6 * 10^{-19} \\
+	    &= (7.36 * 10^{-19}J \\
 \end{align*}
 	\paragraph{4} When the electricity supply is turned off the atoms in the tube do not collide with any more electrons, as none are flowing. Because of this, no
 	excitations occur, and electrons will not be able to move down energy levels. This process is not instantaneous however, as some electrons will move down after
@@ -102,7 +94,17 @@
 	Planck's constant, all the photons emitted have a discrete frequency. These frequencies can be absorbed and represented as sepectral lines, on a graph.
 
 \section{Mechanics and materials}
-
+	
+\subsection{Materials}	
+\subsubsection{Bulk properties of solids}
+	\paragraph{Density} is calculated by dividing the mass of the object by its volume, $\rho = \frac{m}{v}$, and is measured in $kgm^{-3}$ 
+	\paragraph{Hooke's Law} states that the extension of an object is directly proportional to the force applied, up to the elastic limit. Therefore, $F = k\DeltaL
+	\paragraph{Tensile Stress} is the force applied per unit cross sectional area, $\varepsilion = \frac{F}{A}$
+	\paragraph{Tensile Strain} is the ratio of an object extension to its original length, $\sigma = \frac{\DeltaL}{L}
+	\bigskip \paragraph{Young's Modulus} is Stress over strain, and is a measure of hows stiff a material is, and is a property of the material, so does not depend
+	on the volume or dimensions of an object made of the material. $E = \frac{\varepsilion}{\sigma} = \frac{\frac{F}{A}}{\frac{\DeltaL}{L}} = \frac{F * L}{\DeltaL *
+	A}
+	
 \subsection{Forces in equilibrium}
 	A scalar quantity is one that has a magnitude, but does not have a direction.	
 	A vector quantity has both magnitude, and direction.
