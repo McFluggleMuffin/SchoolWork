@@ -42,7 +42,21 @@ $S_c = \frac{e(N_p - N_e)}{N_eM_e + N_pM_p + N_nM_n}$ where $e = 1.6 * 10^{-19}$
 \paragraph{}Unstable nuclei undergo alpha or beta radiation in order to become more stable. A nucleus that is too large will undergo alpha radiation, in order to eject 4 nuclides, and an atom that needs more protons will undergo beta radiation.
 \paragraph{Alpha decay equation} $_{Z}^{A}X -> _{Z-2}^{A-4}X + _{2}^{4}He
 \paragraph{Beta$^-$ decay equation} $_{Z}^{A}X -> _{Z+1}^{A}X + \beta ^{-}$ 
+\paragraph{}The neutrino is a fundamental particle theorised to exist to explain the loss of energy in $\beta 6{-}$ decay. It is a small particle, with no charge and extremly small mass, even when compared to the other fundmental particles.
 \subsubsection{Particle, antiparticles and photons}
+\paragraph{}Every particle has a corresponding anti-particle. The anti-particle has the same rest mass as it's respective particle, but opposite charge and strangeness.The table below shows a selection of particle anti-particle pairs.
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Particle&Particle Charge&Anti-particle&Anti-particle charge&Rest Mass/MeV \\
+\hline
+Electron&$-1$&Positron&$+1$&$0.511$ \\
+\hline
+Proton&$+1$&Anti-proton&$-1$&$938.2$ \\
+\hline
+Neutron&$0$&Anti-neutron&$0&$939.6$ 
+\end{tabular}
+\end{center}
 \subsubsection{Particle interactions}
 \subsubsection{Classification of particles}
 \subsubsection{Quarks and antiquarks}
