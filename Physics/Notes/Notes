@@ -104,6 +104,12 @@
 	\bigskip \paragraph{Young's Modulus} is Stress over strain, and is a measure of hows stiff a material is, and is a property of the material, so does not depend
 	on the volume or dimensions of an object made of the material. $E = \frac{\varepsilion}{\sigma} = \frac{\frac{F}{A}}{\frac{\DeltaL}{L}} = \frac{F * L}{\DeltaL *
 	A}
+	\paragraph{}On a graph of stress against strain, a steep line means that the material is stiff, as it has a high Young's Modulus, that can be calculated by
+	working out the gradient. Flatter lines indicate a ductile material. If a material does not extend much before breaking, it is brittle.
+	\paragraph{}Elastic deformation means that as the force is removed the material returns to its original size. Plastic deformation is a permanent change, and can
+	be seen as a curved portion of the graph, as here Hooke's law is not being followed, so the elastic limit has been passed.
+	\paragraph{Elastic Energy stored} is equal to $\frac{1}{2}F\DeltaL$ which is the area under a force extension graph.
+	
 	
 \subsection{Forces in equilibrium}
 	A scalar quantity is one that has a magnitude, but does not have a direction.	
