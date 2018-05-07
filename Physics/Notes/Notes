@@ -48,6 +48,7 @@
 
 	\paragraph{1a} $9eV$
 	\paragraph{1b}	
+	
 \begin{tikzpicture}
 	\draw (0,0) node[anchor=east] {$E_0$} -- (5.5,0);
 	\draw (0,3) node[anchor=east] {$E_1$} -- (5.5,3);
@@ -76,7 +77,7 @@
 	    &= 2.88 * 10^{-19}J \\
 	& \\
 	E_p &= (4.6 - 0) * 1.6 * 10^{-19} \\
-	    &= (7.36 * 10^{-19}J \\
+	    &= 7.36 * 10^{-19}J \\
 \end{align*}
 	\paragraph{4} When the electricity supply is turned off the atoms in the tube do not collide with any more electrons, as none are flowing. Because of this, no
 	excitations occur, and electrons will not be able to move down energy levels. This process is not instantaneous however, as some electrons will move down after
@@ -98,17 +99,17 @@
 \subsection{Materials}	
 \subsubsection{Bulk properties of solids}
 	\paragraph{Density} is calculated by dividing the mass of the object by its volume, $\rho = \frac{m}{v}$, and is measured in $kgm^{-3}$ 
-	\paragraph{Hooke's Law} states that the extension of an object is directly proportional to the force applied, up to the elastic limit. Therefore, $F = k\DeltaL
-	\paragraph{Tensile Stress} is the force applied per unit cross sectional area, $\varepsilion = \frac{F}{A}$
-	\paragraph{Tensile Strain} is the ratio of an object extension to its original length, $\sigma = \frac{\DeltaL}{L}
+	\paragraph{Hooke's Law} states that the extension of an object is directly proportional to the force applied, up to the elastic limit. Therefore, $F = k\Delta L$
+	\paragraph{Tensile Stress} is the force applied per unit cross sectional area, $\varepsilon = \frac{F}{A}$
+	\paragraph{Tensile Strain} is the ratio of an object extension to its original length, \\ $\sigma = \frac{\Delta L}{L}$
 	\bigskip \paragraph{Young's Modulus} is Stress over strain, and is a measure of hows stiff a material is, and is a property of the material, so does not depend
-	on the volume or dimensions of an object made of the material. $E = \frac{\varepsilion}{\sigma} = \frac{\frac{F}{A}}{\frac{\DeltaL}{L}} = \frac{F * L}{\DeltaL *
-	A}
+	on the volume or dimensions of an object made of the material. $E = \frac{\varepsilon}{\sigma} = \frac{\frac{F}{A}}{\frac{\Delta L}{L}} = \frac{F * L}{\Delta L *
+	A}$
 	\paragraph{}On a graph of stress against strain, a steep line means that the material is stiff, as it has a high Young's Modulus, that can be calculated by
 	working out the gradient. Flatter lines indicate a ductile material. If a material does not extend much before breaking, it is brittle.
 	\paragraph{}Elastic deformation means that as the force is removed the material returns to its original size. Plastic deformation is a permanent change, and can
 	be seen as a curved portion of the graph, as here Hooke's law is not being followed, so the elastic limit has been passed.
-	\paragraph{Elastic Energy stored} is equal to $\frac{1}{2}F\DeltaL$ which is the area under a force extension graph.
+	\paragraph{Elastic Energy stored} is equal to $\frac{1}{2}F\Delta L$, which is the area under a force extension graph.
 	
 	
 \subsection{Forces in equilibrium}
