@@ -11,15 +11,16 @@
 \subsubsection{Constituents of the atom}
 \paragraph{}An atom is made of three particles, electrons, protons and neutrons. Each of these has a charge and a mass, which contribute to the overall charge and mass of the atom.
 \begin{center}
-\begin{tabular}(|c|c|c|c|)
+\begin{tabular}{|c|c|c|c|}
 \hline
-Particle&Mass&Relative Mass&Charge
+Particle&Mass&Relative Mass&Charge \\
 \hline
-Proton&$1.67 * 10^{-27}&1&+1
+Proton&$1.67 * 10^{-27}$&$1$&$+1$ \\
 \hline
-Neutron&$1.67 * 10^{-27}&1&0
+Neutron&$1.67 * 10^{-27}$&$1$&$0$ \\
 \hline
-Electron&$9.11 * 10^{-31}&0&-1
+Electron&$9.11 * 10^{-31}$&$0$&$-1$ \\
+\hline
 \end{tabular}
 \end{center}
 \paragraph{}Specific charge is the charge of a particle or atom divided by its mass. In order to calculate it, you can use the equation 
